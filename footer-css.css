@@ -1,0 +1,6 @@
+/*makes sure that the social widget doesn't collide with other elements*/
+@media (max-width: 1125px) and (min-width: 981px){
+  .social-widget{
+    margin-left: 20px !important;
+  }
+}
