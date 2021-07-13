@@ -1,0 +1,41 @@
+/*fixing the calendar box view*/
+.fc-center>h2{
+  position:relative; 
+  position:relative; bottom:3px;
+}
+/*margins of the top of the page so that the slide always stays aligned with the header*/
+@media(min-width:980px){
+#main-slide{
+     margin-top: clamp(-200px,-4vw,-56px) !important;
+  }
+}
+/*for section three text to scale properly*/
+.section-text{
+  
+  font-size: clamp(15px,1vw,22px) !important;
+}
+/*for setting the headers in section three to scale properly*/
+.section-headers{
+  
+  font-size: clamp(18px,2vw,32px) !important;
+}
+/*makes sure that the third section doesn't crumble when resized*/
+@media(min-width:981px){
+  .text-box,.text-row{
+    min-width: 900px;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 980px){
+  .text-box,.text-row{
+    max-width: 593px;
+  }
+}
+/*place button modules next to each other in the same column*/
+.pa-inline-buttons .et_pb_button_module_wrapper {
+    display: inline-block;
+}
+/*place button modules next to each other in the same column*/
+.button-wrapper .et_pb_button_module_wrapper {
+    display: inline-block;
+}
