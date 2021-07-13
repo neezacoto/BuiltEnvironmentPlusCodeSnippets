@@ -1,0 +1,59 @@
+.wpcf7 {
+  background-color: #DBDBDB;
+	border-radius: 5px;
+}
+
+.wpcf7-form{
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  
+  padding: 25px;
+  
+}
+
+#course-field{
+  background-color: #deddbd ;
+}
+
+.wpcf7-textarea {
+  width: 30% !important;
+}
+
+.wpcf7 input {
+  margin-top: 5px;
+  width: 70%;
+  height: 43px;
+  font-size: 17px;
+  padding-left: 10px;
+  
+}
+
+.wpcf7 label{
+  color: black !important;
+  font-size: 17px;
+}
+
+#submit-button{
+  background: #005DA4;
+  border: 0px solid !important;
+  border-radius: 5px;
+  font-size: 18px;
+  color: white;
+  transition: background-color 250ms;
+  cursor: pointer;
+}
+
+#submit-button:hover {
+  
+  background-color: #3382BE;
+}
+
+.title{
+  display: inline-block;
+}
+
+.color{
+  background-color: #ededed !important;
+}
