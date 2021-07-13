@@ -1,0 +1,12 @@
+/*place button modules next to each other in the same column*/
+.pa-inline-buttons .et_pb_button_module_wrapper {
+  	
+    display: inline-block !important;
+  	
+}
+.pa-inline-buttons{
+  max-width: 129px;
+}
+ul#menu-main-navigation>a{
+  font-size: clamp(10px,1.4vw,18px);
+}
