@@ -1,0 +1,60 @@
+.single-tribe_events .tribe-events-event-image {
+    text-align: center;
+}
+
+.single-tribe_events h1.tribe-events-single-event-title,.single-tribe_events .tribe-events-schedule.tribe-clearfix {
+    display: flex; 
+    justify-content: center; 
+}
+
+/*this is for the mobile menu and makes sure that it works properly when oppening the menu*/
+.et_mobile_menu {
+overflow: scroll !important;
+max-height: 84vh; /*view height*/
+margin-left: -30px;
+left: 370px;
+padding: 3px;
+width: calc( 100% - 350px);
+
+}
+/*header*/
+/*changes the color of the event box when there are no events to report*/
+.diec_event_carousel_1 > div, .diec_event_carousel_0 > div, .diec_event_carousel_3 > div  {
+	color: white !important;
+}
+/*main header bar nav text*/
+#menu-main-navigation>li>a{ /*second class is for calendar page header text*/
+    font-size: clamp(0px,1.1vw,17px) !important;
+}
+/*changes the color of the list moth desc.*/
+.fc-list-heading-main, .fc-list-heading-alt{
+	color: #303030
+}
+.fc-widget-header{
+	color: darkgray;
+}
+/*this is responsible for the three button's sizes on the header only for the desktop veiw*/
+@media (min-width: 980px){
+	.et_pb_button.et_pb_button_0_tb_header.et_pb_bg_layout_dark,
+	.et_pb_button.et_pb_button_1_tb_header.et_pb_bg_layout_dark,
+	.et_pb_button.et_pb_button_2_tb_header.et_pb_bg_layout_dark{
+
+		font-size: clamp(0px,1.1vw,15px) !important;
+
+	}
+}
+/*calendar page layout*/
+@media (min-width: 768px){ /*desktop and tablet margins*/
+	.tribe-events-header.tribe-events-header--has-event-search{
+		margin-top: 50px !important;
+	}
+}
+@media (max-width: 767px){
+	.tribe-events-header.tribe-events-header--has-event-search{
+		margin-top: 100px !important;
+	}
+}
+/*this takes care of the heading for each event to be justified center*/
+.tribe-events-single-event-title{	
+  text-align: center
+}
