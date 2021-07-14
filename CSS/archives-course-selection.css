@@ -240,6 +240,7 @@ ul input:nth-of-type(2){
     background-color: #DBDBDB;
     padding: 10px;
   	padding-top: 12px;
+	border-radius: 5px;
 
 }
 
