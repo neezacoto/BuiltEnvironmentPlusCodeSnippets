@@ -44,12 +44,18 @@
         
        jQuery("#course-tag-container").append('<div class="tag"><div class="course-wrap"><p class="course">'+course_name+'</p><div class="input-wrapper"><input type="image" name="removeButton" 	src="http://builtenvironmentplus.org/wp-content/uploads/2021/07/course_remove.svg" alt="remove button" class="remove-button"> </div></div></div>');
       
-      jQuery(".remove-button").click((event)=>{
-
+      jQuery("input.remove-button").click((event)=>{
+				
+        console.log("start------------\n"+"courses:" +course_inv.join(","));
+        
         //find course text
+        console.log( "index: "+course_inv.indexOf(jQuery(event.target).closest(".tag").find(".course").text()) );
+        
         	course_inv.splice(
         		course_inv.indexOf(jQuery(event.target).closest(".tag").find(".course").text()), 1
-                           )
+                           );
+        console.log("courses:" +course_inv.join(",")+"\n end----------------");
+        	
         
       		event.target.closest(".tag").remove();
         	
