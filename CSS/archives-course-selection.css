@@ -108,7 +108,7 @@ ul input:nth-of-type(2){
   font-size: 17px !important;
   padding-left: 10px;
   border-radius: 1px !important;
-  margin-bottom: -5px !important;
+  margin-bottom: 5px !important;
   
 }
 
@@ -177,6 +177,7 @@ ul input:nth-of-type(2){
   	margin-top: 36px;
   	transition: background-color 250ms;
   	cursor: pointer;
+  	margin-top: -14px;
 }
 
 #fake-submit:hover{
@@ -223,13 +224,14 @@ ul input:nth-of-type(2){
 
 #course-tag-container{
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: -10px !important;
     background-color: white;
     padding: 10px;
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 1px;
     border: #BBBBBB 1px solid;
+  	min-height: 43px;
     
 
 }
@@ -237,5 +239,15 @@ ul input:nth-of-type(2){
 #form-container{
     background-color: #DBDBDB;
     padding: 10px;
+  	padding-top: 12px;
 
+}
+
+#course-field, #submit-button{
+  display: none;
+}
+
+.tag-label {
+    color: black;
+    font-size: 19px;
 }
