@@ -11,19 +11,7 @@
     jQuery(".wpcf7").wrap('<div id="form-container"/>');
     
     //add tag container
-    jQuery(".wpcf7").before('<label class="tag-label">Selected Course<span style="font-size: 18px">(s)</span><div id="course-tag-container"/></label>');
-    
-    /*
-    //add mockup thing
-    jQuery("#course-tag-container").append('<div class="tag"><div class="course-wrap"><p class="course">bruh</p><div class="input-wrapper"><input type="image" name="removeButton" src="http://builtenvironmentplus.org/wp-content/uploads/2021/07/course_remove.svg" alt="remove button" class="remove-button"> </div></div></div>');
-    
-    jQuery(".remove-button").click((event)=>{
-      event.target.closest(".tag").remove();
-    });
-    */
-    
-    
-		//add button functionality
+    jQuery(".wpcf7").before('<label class="tag-label">Selected Course<span style="font-size: 18px">(s)</span><span style="color:red;">*</span><div id="course-tag-container"/></label>');
     jQuery(".et_pb_post").wrap('<div class="course-wrapper" />');      
     jQuery(".et_pb_post").after('<input type="image" name="addButton" src="http://builtenvironmentplus.org/wp-content/uploads/2021/07/course_add.svg" width="100px" height="auto" alt="add button" class="add-button">');  
     jQuery(".add-button").wrap('<div/>');
@@ -36,7 +24,6 @@
         
         course_inv.push(course_name);
         
-        
        jQuery("#course-tag-container").append('<div class="tag"><div class="course-wrap"><p class="course">'+course_name+'</p><div class="input-wrapper"><input type="image" name="removeButton" 	src="http://builtenvironmentplus.org/wp-content/uploads/2021/07/course_remove.svg" alt="remove button" class="remove-button"> </div></div></div>');
       
       jQuery(".remove-button").click((event)=>{
@@ -45,13 +32,12 @@
         	course_inv.splice(
         		course_inv.indexOf(jQuery(event.target).closest(".tag").find(".course").text()), 1
                            )
-        
+
       		event.target.closest(".tag").remove();
         	
     	});   
       }
     })
-    
     jQuery("#form-container").append('<button id="fake-submit" type="button">Send</button>');
     
     jQuery("#fake-submit").click((event)=>{
@@ -61,8 +47,6 @@
       jQuery("#submit-button").click();
       
     })
-    
-    
-		
+	
 	}); 
 </script>
