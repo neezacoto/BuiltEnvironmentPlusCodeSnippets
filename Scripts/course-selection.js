@@ -25,6 +25,9 @@
   
 	jQuery(document).on('ready ajaxComplete', function () {
     
+    
+    
+    
 		//add button functionality
     jQuery(".et_pb_post").wrap('<div class="course-wrapper" />');      
     jQuery(".et_pb_post").after('<input type="image" name="addButton" src="http://builtenvironmentplus.org/wp-content/uploads/2021/07/course_add.svg" width="100px" height="auto" alt="add button" class="add-button">');  
@@ -51,6 +54,11 @@
       		event.target.closest(".tag").remove();
         	
     	});   
+      }else{
+        jQuery(".tag:contains('"+course_name+"')").addClass('animate')
+          jQuery(".tag:contains('"+course_name+"')").on("animationend", ()=>{
+      		jQuery(".tag:contains('"+course_name+"')").removeClass('animate');
+    		});
       }
     })
 
