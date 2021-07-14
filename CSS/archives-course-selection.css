@@ -82,17 +82,18 @@ ul input:nth-of-type(2){
 }
 
 .wpcf7-form{
-  margin-left: 25px;
-  margin-right: 25px;
-  margin-top: 25px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 15px;
   margin-bottom: 5px;
   
-  padding: 25px;
+  padding: 0px;
   
 }
 
 #course-field{
-  background-color: #deddbd ;
+  background-color: #deddbd;
+  
 }
 
 .wpcf7-textarea {
@@ -104,19 +105,19 @@ ul input:nth-of-type(2){
   margin-top: 5px;
   width: 100%;
   height: 43px;
-  font-size: 15px !important;
+  font-size: 17px !important;
   padding-left: 10px;
   border-radius: 1px !important;
-  margin-bottom: -10px !important;
+  margin-bottom: -5px !important;
   
 }
 
 .wpcf7 label{
   color: black !important;
-  font-size: 17px;
+  font-size: 19px;
 }
 
-textarea{
+.textarea{
   height: 150px !important;
   margin-bottom: -10px;
   font-family: verdana !important;
@@ -124,7 +125,7 @@ textarea{
 }
 
 #submit-button{
-  background: #005DA4;
+  background: #0078d3;
   border: 0px solid !important;
   border-radius: 5px !important;
   font-size: 18px;
@@ -163,4 +164,78 @@ textarea{
 
 #blog-container{
   left: 10px;
+}
+
+#fake-submit{
+  	width: 100%;
+    border: none;
+    height: 44px;
+    border-radius: 5px;
+    background-color: #005DA4;
+    color: white;
+    font-size: 15px;
+  	margin-top: 36px;
+  	transition: background-color 250ms;
+  	cursor: pointer;
+}
+
+#fake-submit:hover{
+  background-color: #3382BE;
+}
+
+/*css for the tags*/
+.tag {
+  background-color: rgb(220 220 220);
+  display: inline-block;
+  
+    margin-bottom: 5px;
+
+  border-radius: 25px;
+}
+
+.course{
+  border-radius: 15px;
+  margin:0px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size:15px;
+  margin-left:15px !important;
+}
+
+.input-wrapper{
+  margin-left: -10px;
+  margin-right: -15px
+}
+
+.remove-button{
+  width:60px !important; 
+  height:auto;
+  margin-top:10% !important; 
+  margin-bottom:0px !important;
+}
+
+.course-wrap{
+  display:flex;
+  align-items: center;
+  margin-bottom:-10px;
+  margin-top:-10px;
+}
+
+#course-tag-container{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 1px;
+    border: #BBBBBB 1px solid;
+    
+
+}
+
+#form-container{
+    background-color: #DBDBDB;
+    padding: 10px;
+
 }
