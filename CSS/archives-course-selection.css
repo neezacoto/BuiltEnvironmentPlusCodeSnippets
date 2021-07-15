@@ -185,17 +185,16 @@ ul input:nth-of-type(2){
 }
 
 /*css for the tags*/
-.tag {
+.tag{
   background-color: rgb(220 220 220);
   display: inline-block;
-  
-    margin-bottom: 5px;
-
+  align-items: center;
+  margin-bottom: 5px;
   border-radius: 25px;
 	
 }
 
-.course{
+.tag-course-name{
   border-radius: 15px;
   margin:0px;
   margin-top: 15px;
@@ -209,21 +208,32 @@ ul input:nth-of-type(2){
   margin-right: -15px
 }
 
-.remove-button{
-  width:60px !important; 
-  height:auto;
-  margin-top:10% !important; 
-  margin-bottom:0px !important;
+.tag-remove-button{
+  
+  border: none;
+  background-color: transparent;
+  
 }
 
-.course-wrap{
+.remove-icon{
+  display: block;
+  width:20px;
+  background-color: none;
+  border: 0px;
+}
+
+.tag-remove-button:hover{
+  display: none;
+}
+
+.tag-content-wrap{
   display:flex;
   align-items: center;
   margin-bottom:-10px;
   margin-top:-10px;
 }
 
-#course-tag-container{
+#tags-container{
     margin-top: 10px;
     margin-bottom: -10px !important;
     background-color: white;
