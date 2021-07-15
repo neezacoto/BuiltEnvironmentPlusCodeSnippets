@@ -1,5 +1,4 @@
-<script>
-  	let course_inv = [];
+  let course_inv = [];
   jQuery( document ).ready(function() {
     
     //course field
@@ -63,5 +62,3 @@
     })
 
 	}); 
-
-</script>
