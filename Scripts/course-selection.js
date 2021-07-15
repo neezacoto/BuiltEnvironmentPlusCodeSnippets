@@ -1,14 +1,11 @@
-  let course_inv = [];
+<script>
+  	let course_inv = [];
   jQuery( document ).ready(function() {
-    
-    //course field
-    let course_field = document.getElementById("course-field");
-    course_field.placeholder = "LEED v4 Project Management,LEED for Homes Workshop: Part2,...";
     
     jQuery(".wpcf7").wrap('<div id="form-container"/>');
     
     //add tag container
-    jQuery(".wpcf7").before('<label class="tag-label">Selected Course<span style="font-size: 18px">(s)</span><span style="color:red;">*</span><div id="course-tag-container"/></label>');
+    jQuery("#form-container").prepend('<label class="tag-label">Selected Course<span style="font-size: 18px">(s)</span><span style="color:red;">*</span><div id="tags-container"/></label>');
      
     jQuery("#form-container").append('<button id="fake-submit" type="button">Send</button>');
     
@@ -24,15 +21,12 @@
   
 	jQuery(document).on('ready ajaxComplete', function () {
     
-    
-    
-    
 		//add button functionality
     jQuery(".et_pb_post").wrap('<div class="course-wrapper" />');      
     jQuery(".et_pb_post").after('<input type="image" name="addButton" src="http://builtenvironmentplus.org/wp-content/uploads/2021/07/course_add.svg" width="100px" height="auto" alt="add button" class="add-button">');  
     jQuery(".add-button").wrap('<div/>');
     
-    //adding button functionality   
+    //add button functionality   
     jQuery(".add-button").click((event)=>{    
      	let course_name = jQuery(event.target).closest(".course-wrapper").find(".entry-title").text();
       
@@ -41,9 +35,9 @@
         course_inv.push(course_name);
         
         
-       jQuery("#course-tag-container").append(' <div class="tag"><div class="course-wrap"><p class="course">'+course_name+'</p><div class="input-wrapper"><input type="image" name="removeButton" src="http://builtenvironmentplus.org/wp-content/uploads/2021/07/course_remove-1.svg" alt="remove button" class="remove-button"></div></div></div>');
+       jQuery("#tags-container").append('<div class="tag"><div class="tag-content-wrap"><p class="tag-course-name">'+course_name+'</p><button class="tag-remove-button"><img class="remove-icon"src="http://builtenvironmentplus.org/wp-content/uploads/2021/07/course_remove.svg"></button><div></div>');
       
-      jQuery(".remove-button").on('click', (event)=>{
+      jQuery(".tag-remove-button").on('click', (event)=>{
         
         //find course text
 						course_inv.splice(
@@ -62,3 +56,5 @@
     })
 
 	}); 
+
+</script>
