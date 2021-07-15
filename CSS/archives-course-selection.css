@@ -11,74 +11,74 @@ ul input:nth-of-type(2){
 
 .searchandfilter p
 {
-	margin-top: 1em;
-	display: block !important;
+    margin-top: 1em;
+    display: block !important;
 }
 .searchandfilter ul
 {
-	display: block !important;
+    display: block !important;
 }
 
 .searchandfilter h4
 {
-	margin:20px 0;
-	font-size:20px !important;
+    margin:20px 0;
+    font-size:20px !important;
 }
 .widget-area .searchandfilter li, .widget-area .searchandfilter p
 {
-	display:block !important;
+    display:block !important;
 }
 
 /*style the wp-pagenavi pagination links*/
 
 .wp-pagenavi a,
 .wp-pagenavi span {
-	color: #000000;
-	background: #f1f3f5;
-	font-size: 1em !important;
-	line-height: 1em;
-	font-weight: bold !important;
-	padding: 0.45em 0.8em !important;
-	border-radius: 100px;
-	transition: all .5s;
+    color: #000000;
+    background: #f1f3f5;
+    font-size: 1em !important;
+    line-height: 1em;
+    font-weight: bold !important;
+    padding: 0.45em 0.8em !important;
+    border-radius: 100px;
+    transition: all .5s;
 }
 
 
 /*style the wp-pagenavi current page number*/
 
 .wp-pagenavi span.current {
-	color: #ffffff !important;
-	background: #0070fc !important;
+    color: #ffffff !important;
+    background: #0070fc !important;
   font-size: 17px !important;
-	border-radius: 100px;
+    border-radius: 100px;
 }
 
 
 /*style the wp-pagenavi pagination links on hover*/
 
 .wp-pagenavi a:hover {
-	color: #ffffff!important;
-	background: #0070fc!important;
+    color: #ffffff!important;
+    background: #0070fc!important;
 }
 
 
 /*style the wp-pagenavi pages text*/
 
 .wp-pagenavi .pages {
-	background: none;
+    background: none;
 }
 
 
 /*remove border and center the wp-pagenavi links*/
 
 .wp-pagenavi {
-	border-top: none;
-	text-align: center;
+    border-top: none;
+    text-align: center;
 }
 /*contact form css*/
 .wpcf7 {
   background-color: #DBDBDB;
-	border-radius: 5px;
+    border-radius: 5px;
 }
 
 .wpcf7-form{
@@ -154,7 +154,7 @@ ul input:nth-of-type(2){
 
 .add-button{
   transition: transform 250ms;
-	margin-top: 50%;
+    margin-top: 50%;
 }
 .add-button:hover{
   transform: rotate(-90deg);
@@ -167,17 +167,17 @@ ul input:nth-of-type(2){
 }
 
 #fake-submit{
-  	width: 100%;
+    width: 100%;
     border: none;
     height: 44px;
     border-radius: 5px;
     background-color: #005DA4;
     color: white;
     font-size: 15px;
-  	margin-top: 36px;
-  	transition: background-color 250ms;
-  	cursor: pointer;
-  	margin-top: -14px;
+    margin-top: 36px;
+    transition: background-color 250ms;
+    cursor: pointer;
+    margin-top: -14px;
 }
 
 #fake-submit:hover{
@@ -185,16 +185,17 @@ ul input:nth-of-type(2){
 }
 
 /*css for the tags*/
-.tag{
+.tag {
   background-color: rgb(220 220 220);
   display: inline-block;
-  align-items: center;
-  margin-bottom: 5px;
+  
+    margin-bottom: 5px;
+
   border-radius: 25px;
-	
+    
 }
 
-.tag-course-name{
+.course{
   border-radius: 15px;
   margin:0px;
   margin-top: 15px;
@@ -208,32 +209,21 @@ ul input:nth-of-type(2){
   margin-right: -15px
 }
 
-.tag-remove-button{
-  
-  border: none;
-  background-color: transparent;
-  
+.remove-button{
+  width:60px !important; 
+  height:auto;
+  margin-top:10% !important; 
+  margin-bottom:0px !important;
 }
 
-.remove-icon{
-  display: block;
-  width:20px;
-  background-color: none;
-  border: 0px;
-}
-
-.tag-remove-button:hover{
-  display: none;
-}
-
-.tag-content-wrap{
+.course-wrap{
   display:flex;
   align-items: center;
   margin-bottom:-10px;
   margin-top:-10px;
 }
 
-#tags-container{
+#course-tag-container{
     margin-top: 10px;
     margin-bottom: -10px !important;
     background-color: white;
@@ -242,7 +232,7 @@ ul input:nth-of-type(2){
     padding-bottom: 15px;
     border-radius: 1px;
     border: #BBBBBB 1px solid;
-  	min-height: 43px;
+    min-height: 43px;
     
 
 }
@@ -250,8 +240,8 @@ ul input:nth-of-type(2){
 #form-container{
     background-color: #DBDBDB;
     padding: 10px;
-  	padding-top: 12px;
-  	border-radius: 5px;
+    padding-top: 12px;
+    border-radius: 5px;
 
 }
 
