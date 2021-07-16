@@ -1,267 +1,323 @@
-input,select{
-  border-radius: 20px !important;
-  padding-left: 20px !important;
-  padding-right: 20px !important;
-  margin-bottom: 10px !important;
-  font-size: 18px !important;
-}
-ul input:nth-of-type(2){
-  border:none;
+input,
+select {
+	border-radius: 20px !important;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+	margin-bottom: 10px !important;
+	font-size: 18px !important;
 }
 
-.searchandfilter p
-{
-    margin-top: 1em;
-    display: block !important;
-}
-.searchandfilter ul
-{
-    display: block !important;
+ul input:nth-of-type(2) {
+	border: none;
 }
 
-.searchandfilter h4
-{
-    margin:20px 0;
-    font-size:20px !important;
+
+/*search form */
+
+.searchandfilter>input {
+	margin-bottom: 10px !important;
 }
-.widget-area .searchandfilter li, .widget-area .searchandfilter p
-{
-    display:block !important;
+
+input.sf-input-text {
+	margin-bottom: -5px !important;
 }
+
+.noUi-connect {
+	background-color: #3382BE !important
+}
+
+.sf-field-search>h4 {
+	font-size: 29px !important;
+}
+
+li.sf-field-post-meta-course_hours {
+	margin-top: -35px !important;
+}
+
+li.sf-field-taxonomy-training_categories {
+	margin-top: 15px !important;
+}
+
+li.sf-field-taxonomy-training_categories {
+	margin-top: -16px !important;
+}
+
+li.sf-field-post-meta-course_hours>h4 {
+	margin-bottom: 5px
+}
+
+.sf-meta-range.sf-meta-range-slider>span {
+	font-size: 17px;
+	margin-left: 10px;
+}
+
+li.sf-field-taxonomy-training_categories>h4 {
+	margin-bottom: 6px !important;
+}
+
+.searchandfilter p {
+	margin-top: 1em;
+	display: block !important;
+}
+
+.searchandfilter ul {
+	display: block !important;
+}
+
+.searchandfilter h4 {
+	margin: 20px 0;
+	font-size: 20px !important;
+}
+
+.widget-area .searchandfilter li,
+.widget-area .searchandfilter p {
+	display: block !important;
+}
+
 
 /*style the wp-pagenavi pagination links*/
 
 .wp-pagenavi a,
 .wp-pagenavi span {
-    color: #000000;
-    background: #f1f3f5;
-    font-size: 1em !important;
-    line-height: 1em;
-    font-weight: bold !important;
-    padding: 0.45em 0.8em !important;
-    border-radius: 100px;
-    transition: all .5s;
+	color: #000000;
+	background: #f1f3f5;
+	font-size: 1em !important;
+	line-height: 1em;
+	font-weight: bold !important;
+	padding: 0.45em 0.8em !important;
+	border-radius: 100px;
+	transition: all .5s;
 }
 
 
 /*style the wp-pagenavi current page number*/
 
 .wp-pagenavi span.current {
-    color: #ffffff !important;
-    background: #0070fc !important;
-  font-size: 17px !important;
-    border-radius: 100px;
+	color: #ffffff !important;
+	background: #0070fc !important;
+	font-size: 17px !important;
+	border-radius: 100px;
 }
 
 
 /*style the wp-pagenavi pagination links on hover*/
 
 .wp-pagenavi a:hover {
-    color: #ffffff!important;
-    background: #0070fc!important;
+	color: #ffffff!important;
+	background: #0070fc!important;
 }
 
 
 /*style the wp-pagenavi pages text*/
 
 .wp-pagenavi .pages {
-    background: none;
+	background: none;
 }
 
 
 /*remove border and center the wp-pagenavi links*/
 
 .wp-pagenavi {
-    border-top: none;
-    text-align: center;
+	border-top: none;
+	text-align: center;
 }
+
+
 /*contact form css*/
+
 .wpcf7 {
-  background-color: #DBDBDB;
-    border-radius: 5px;
+	background-color: #DBDBDB;
+	border-radius: 5px;
 }
 
-.wpcf7-form{
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 15px;
-  margin-bottom: 5px;
-  
-  padding: 0px;
-  
+.wpcf7-form {
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	padding: 0px;
 }
 
-#course-field{
-  background-color: #deddbd;
-  
+#course-field {
+	background-color: #deddbd;
 }
 
 .wpcf7-textarea {
-  width: 100% !important;
-  
+	width: 100% !important;
 }
 
 .wpcf7 input {
-  margin-top: 5px;
-  width: 100%;
-  height: 43px;
-  font-size: 17px !important;
-  padding-left: 10px;
-  border-radius: 1px !important;
-  margin-bottom: 5px !important;
-  
+	margin-top: 5px;
+	width: 100%;
+	height: 43px;
+	font-size: 17px !important;
+	padding-left: 10px;
+	border-radius: 1px !important;
+	margin-bottom: 5px !important;
 }
 
-.wpcf7 label{
-  color: black !important;
-  font-size: 19px;
+.wpcf7 label {
+	color: black !important;
+	font-size: 19px;
 }
 
-.textarea{
-  height: 150px !important;
-  margin-bottom: -10px;
-  font-family: verdana !important;
-  
+.textarea {
+	height: 150px !important;
+	margin-bottom: -10px;
+	font-family: verdana !important;
 }
 
-#submit-button{
-  background: #0078d3;
-  border: 0px solid !important;
-  border-radius: 5px !important;
-  font-size: 18px;
-  color: white;
-  transition: background-color 250ms;
-  cursor: pointer;
-  margin-bottom: -10px !important;
+#submit-button {
+	background: #0078d3;
+	border: 0px solid !important;
+	border-radius: 5px !important;
+	font-size: 18px;
+	color: white;
+	transition: background-color 250ms;
+	cursor: pointer;
+	margin-bottom: -10px !important;
 }
 
 #submit-button:hover {
-  
-  background-color: #3382BE;
+	background-color: #3382BE;
 }
 
-.title{
-  display: inline-block;
+.title {
+	display: inline-block;
 }
 
-.color{
-  background-color: #ededed !important;
+.color {
+	background-color: #ededed !important;
 }
 
-.course-wrapper{
-  display: flex;
+.course-wrapper {
+	display: flex;
 }
 
-.add-button{
-  transition: transform 250ms;
-    margin-top: 50%;
-}
-.add-button:hover{
-  transform: rotate(-90deg);
-  background: url(black.png);
-  filter: invert(15%) sepia(100%) saturate(7499%) hue-rotate(196deg) brightness(94%) contrast(102%);
+.add-button {
+	transition: transform 250ms;
+	margin-top: 50%;
 }
 
-#blog-container{
-  left: 10px;
+.add-button:hover {
+	transform: rotate(-90deg);
+	background: url(black.png);
+	filter: invert(15%) sepia(100%) saturate(7499%) hue-rotate(196deg) brightness(94%) contrast(102%);
 }
 
-#fake-submit{
-    width: 100%;
-    border: none;
-    height: 44px;
-    border-radius: 5px;
-    background-color: #005DA4;
-    color: white;
-    font-size: 15px;
-    margin-top: 36px;
-    transition: background-color 250ms;
-    cursor: pointer;
-    margin-top: -14px;
+#blog-container {
+	left: 10px;
 }
 
-#fake-submit:hover{
-  background-color: #3382BE;
+#fake-submit {
+	width: 100%;
+	border: none;
+	height: 44px;
+	border-radius: 5px;
+	background-color: #005DA4;
+	color: white;
+	font-size: 15px;
+	margin-top: 36px;
+	transition: background-color 250ms;
+	cursor: pointer;
+	margin-top: -14px;
 }
+
+#fake-submit:hover {
+	background-color: #3382BE;
+}
+
 
 /*css for the tags*/
+
 .tag {
-  background-color: rgb(220 220 220);
-  display: inline-block;
-  
-    margin-bottom: 5px;
-
-  border-radius: 25px;
-    
+	background-color: rgb(220 220 220);
+	display: inline-block;
+	margin-bottom: 5px;
+	border-radius: 25px;
 }
 
-.course{
-  border-radius: 15px;
-  margin:0px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  font-size:15px;
-  margin-left:15px !important;
+.course {
+	border-radius: 15px;
+	margin: 0px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 15px;
+	margin-left: 15px !important;
 }
 
-.input-wrapper{
-  margin-left: -10px;
-  margin-right: -15px
+.input-wrapper {
+	margin-left: -10px;
+	margin-right: -15px
 }
 
-.remove-button{
-  width:60px !important; 
-  height:auto;
-  margin-top:10% !important; 
-  margin-bottom:0px !important;
+.remove-button {
+	width: 60px !important;
+	height: auto;
+	margin-top: 10% !important;
+	margin-bottom: 0px !important;
 }
 
-.course-wrap{
-  display:flex;
-  align-items: center;
-  margin-bottom:-10px;
-  margin-top:-10px;
+.course-wrap {
+	display: flex;
+	align-items: center;
+	margin-bottom: -10px;
+	margin-top: -10px;
 }
 
-#course-tag-container{
-    margin-top: 10px;
-    margin-bottom: -10px !important;
-    background-color: white;
-    padding: 10px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-radius: 1px;
-    border: #BBBBBB 1px solid;
-    min-height: 43px;
-    
-
+#course-tag-container {
+	margin-top: 10px;
+	margin-bottom: -10px !important;
+	background-color: white;
+	padding: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 1px;
+	border: #BBBBBB 1px solid;
+	min-height: 43px;
 }
 
-#form-container{
-    background-color: #DBDBDB;
-    padding: 10px;
-    padding-top: 12px;
-    border-radius: 5px;
-
+#form-container {
+	background-color: #DBDBDB;
+	padding: 10px;
+	padding-top: 12px;
+	border-radius: 5px;
 }
 
-#course-field, #submit-button{
-  display: none;
+#course-field,
+#submit-button {
+	display: none;
 }
 
 .tag-label {
-    color: black;
-    font-size: 19px;
+	color: black;
+	font-size: 19px;
 }
 
 @keyframes highlight-tag {
-  50%{
-    background-color: #75ACD8;
-  }
-  100%{
-    background-color: #DBDBDB;
-  }
+	50% {
+		background-color: #75ACD8;
+	}
+	100% {
+		background-color: #DBDBDB;
+	}
 }
-.animate{
-  animation: highlight-tag 1s ease-in-out;
+
+.animate {
+	animation: highlight-tag 1s ease-in-out;
+}
+
+
+/*paginaiton edits*/
+
+.wp-pagenavi span.current {
+	color: #ffffff!important;
+	background: #3382BE!important;
+	font-size: 17px!important;
+	border-radius: 100px
+}
+
+.wp-pagenavi a:hover {
+	color: #ffffff!important;
+	background: #3382BE!important
 }
