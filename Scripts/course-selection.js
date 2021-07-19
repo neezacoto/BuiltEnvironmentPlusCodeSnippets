@@ -16,7 +16,7 @@ jQuery(document).ready(function () {
 	jQuery("#fake-submit").click((event) => {
 
 		jQuery("#course-field").val("");
-		jQuery("#course-field").val(course_inv.join(", "));
+		jQuery("#course-field").val(course_inv.join(","));
 		jQuery("#submit-button").click();
 
 	})
