@@ -1,5 +1,7 @@
-<script>
-let course_inv = [];
+< script >
+	let course_inv = [];
+let hidden = false;
+
 jQuery(document).ready(function () {
 
 	//course field
@@ -9,7 +11,8 @@ jQuery(document).ready(function () {
 	jQuery(".wpcf7").wrap('<div id="form-container"/>');
 
 	//add tag container
-	jQuery(".wpcf7").before('<p class="tag-label">Selected Course<span style="font-size: 18px">(s)</span><span style="color:red;">*</span></p><div id="course-tag-container"/>');
+	jQuery(".wpcf7").before('<p class="tag-label">Selected Course<span style="font-size: 18px">(s)</span><span style="color:red;">*</span></p><div id="course-tag-container"><p id="preview-text" style="color: #ababab; font-size: 15px;">Press The Plus Icon to Add a Course</p></div>');
+
 
 	jQuery("#form-container").append('<button id="fake-submit" type="button">Send</button>');
 
@@ -32,12 +35,18 @@ jQuery(document).on('ready ajaxComplete', function () {
 
 	//adding button functionality   
 	jQuery(".add-button").click((event) => {
+
+
 		let course_name = jQuery(event.target).closest(".course-wrapper").find(".entry-title").text();
 
 		if (course_inv.indexOf(course_name) === -1) {
 
 			course_inv.push(course_name);
 
+			if (!hidden) {
+				jQuery("#preview-text").addClass('hide');
+				hidden = true;
+			}
 
 			jQuery("#course-tag-container").append('<div class="tag"><div class="course-wrap"><p class="course">' + course_name + '</p><div class="input-wrapper"><input type="image" name="removeButton"    src="http://builtenvironmentplus.org/wp-content/uploads/2021/07/course_remove.svg" alt="remove button" class="remove-button" onclick="tagDelete(event)"> </div></div></div>');
 
@@ -49,6 +58,7 @@ jQuery(document).on('ready ajaxComplete', function () {
 		}
 	})
 
+
 });
 
 function tagDelete(event) {
@@ -59,5 +69,10 @@ function tagDelete(event) {
 
 	event.target.closest(".tag").remove();
 
-}
-</script>
+	if (hidden && course_inv.length === 0) {
+		jQuery("#preview-text").removeClass('hide');
+		hidden = false;
+	}
+
+} <
+/script>
