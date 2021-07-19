@@ -11,6 +11,10 @@ ul input:nth-of-type(2) {
 	border: none;
 }
 
+input.add-button {
+    width: 85px !important;
+}
+
 
 /*search form */
 
@@ -26,8 +30,8 @@ input.sf-input-text {
 	background-color: #3382BE !important
 }
 
-.sf-field-search>h4 {
-	font-size: 29px !important;
+li.sf-field-search>h4:first-child {
+    font-size: 27px !important; 
 }
 
 li.sf-field-post-meta-course_hours {
@@ -124,6 +128,8 @@ li.sf-field-taxonomy-training_categories>h4 {
 
 
 /*contact form css*/
+
+
 
 .wpcf7 {
 	background-color: #DBDBDB;
@@ -320,4 +326,36 @@ li.sf-field-taxonomy-training_categories>h4 {
 .wp-pagenavi a:hover {
 	color: #ffffff!important;
 	background: #3382BE!important
+}
+/*more right col stylies*/
+#form-container {
+    background-color: #303030;
+
+}
+
+.wpcf7 label {
+    color: white !important;
+}
+
+p.tag-label {
+    color: white;
+}
+
+form.wpcf7-form.init {
+    background-color: #303030;
+}
+
+
+.et_pb_column.et_pb_column_1_3.et_pb_column_4_tb_body.et_pb_css_mix_blend_mode_passthrough.et-last-child {
+    background-color: #303030;
+    border-radius: 5px !important;
+}
+
+#preview-text{
+    cursor: context-menu;
+}
+
+.hide{
+  display: none;
+
 }
