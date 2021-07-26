@@ -236,34 +236,6 @@ li.sf-field-taxonomy-training_categories>h4 {
 
 /*css for the tags*/
 
-.tag {
-	background-color: rgb(220 220 220);
-	display: inline-block;
-	margin-bottom: 5px;
-	border-radius: 25px;
-}
-
-.course {
-	border-radius: 15px;
-	margin: 0px;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	font-size: 15px;
-	margin-left: 15px !important;
-}
-
-.input-wrapper {
-	margin-left: -10px;
-	margin-right: -15px
-}
-
-.remove-button {
-	width: 60px !important;
-	height: auto;
-	margin-top: 10% !important;
-	margin-bottom: 0px !important;
-}
-
 .course-wrap {
 	display: flex;
 	align-items: center;
@@ -358,4 +330,36 @@ form.wpcf7-form.init {
 .hide{
   display: none;
 
+}
+
+form.wpcf7-form.sent {
+    background-color: #303030 !important;
+}
+.wpcf7-response-output {
+    margin-top: -10px !important;
+    color: white;
+}
+/*heading text area*/
+.inline .et_pb_button_module_wrapper {
+    display: inline-block;
+}
+
+.header-body{
+    display: flex;
+}
+
+.header-bodies:nth-child(1){
+    padding-right: 20px;
+}
+/*extra css for testimonials*/
+.testimonial-active {
+  background-color: #3382BE !important;
+}
+
+.testimonial-active span{
+    color: white;
+}
+
+.testimonial-active p{
+    color: #F8F8F8;
 }
