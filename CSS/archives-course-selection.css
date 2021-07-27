@@ -129,7 +129,16 @@ li.sf-field-taxonomy-training_categories>h4 {
 
 /*contact form css*/
 
+p#preview-text  {
+	font-size: 16px !important;
+	color: #757575 !important;
 
+}
+
+textarea#note-field {
+	font-size: 17px;
+	padding-left: 10px;
+}
 
 .wpcf7 {
 	background-color: #DBDBDB;
@@ -250,9 +259,11 @@ li.sf-field-taxonomy-training_categories>h4 {
 	padding: 10px;
 	padding-top: 15px;
 	padding-bottom: 15px;
+	padding-left: 10px;
 	border-radius: 1px;
 	border: #BBBBBB 1px solid;
 	min-height: 43px;
+	font-size: 24px !important;
 }
 
 #form-container {
@@ -301,7 +312,7 @@ li.sf-field-taxonomy-training_categories>h4 {
 }
 /*more right col stylies*/
 #form-container {
-    background-color: #303030;
+    background-color: #383838;
 
 }
 
@@ -314,12 +325,12 @@ p.tag-label {
 }
 
 form.wpcf7-form.init {
-    background-color: #303030;
+    background-color: #383838;
 }
 
 
 .et_pb_column.et_pb_column_1_3.et_pb_column_4_tb_body.et_pb_css_mix_blend_mode_passthrough.et-last-child {
-    background-color: #303030;
+    background-color: #383838;
     border-radius: 5px !important;
 }
 
@@ -333,7 +344,7 @@ form.wpcf7-form.init {
 }
 
 form.wpcf7-form.sent {
-    background-color: #303030 !important;
+    background-color: #383838 !important;
 }
 .wpcf7-response-output {
     margin-top: -10px !important;
