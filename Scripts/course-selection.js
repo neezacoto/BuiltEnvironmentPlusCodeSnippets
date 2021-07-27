@@ -8,7 +8,7 @@ jQuery(document).ready(function () {
 	//course field
 	let course_field = document.getElementById("course-field");
 	course_field.placeholder = "LEED v4 Project Management,LEED for Homes Workshop: Part2,...";
-
+	jQuery(".capture").wrapAll('<div id="course-selection-widget"/>')
 	jQuery(".wpcf7").wrap('<div id="form-container"/>');
 
 	//add tag container
@@ -379,6 +379,14 @@ input[type=number]::-webkit-outer-spin-button {
   margin-right: 10px;
   font-size: 24px;
   transform: translateY(3px);
+}
+  
+label.title.course {
+    color:#3e3e3e;
+}
+
+label.course-title {
+    color:#3e3e3e;
 }
 
 </style>
