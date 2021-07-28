@@ -404,11 +404,34 @@ span.pages {
   overflow: hidden;
 }
 #search-2 .searchandfilter li[data-sf-field-input-type="checkbox"] ul{
-      max-height: 180px;
-    overflow: auto;
+      max-height: 540px;
+      overflow: auto;
     }
 
-@media (max-width: 979px){
+
+
+
+
+input[type="submit"] {
+    border: none;
+    background-color: #005da4;
+    color: white;
+    border-radius: 5px !important;
+    font-size: 17px !important;
+    padding: 5px 10px 5px 10px;
+    transform: translateX(10px);
+    width: 90%;
+}
+
+div#form-container {
+    margin-bottom: 0px;
+}
+
+div#blog-container {
+    margin-top: -30px;
+}
+
+@media (max-width: 981px){
 
 .et_pb_module.et_pb_text.et_pb_text_5_tb_body.capture.et_pb_text_align_left.et_pb_bg_layout_light {
     width: 436.8px;
@@ -421,12 +444,12 @@ div#course-selection-widget {
 
 div#form-container {
     width: 436.8px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 
 }
 
 .et_pb_module.et_pb_text.et_pb_text_5_tb_body.capture.et_pb_text_align_left.et_pb_bg_layout_light, div#course-selection-widget {
-    margin-left: -4% !important;
+    margin-left: -4%;
 }
 
 form#search-filter-form-24386 {
@@ -457,17 +480,42 @@ span.extend {
     background-color: transparent;
 }
 
-}
-
-input[type="submit"] {
-    border: none;
-    background-color: #005da4;
-    color: white;
-    border-radius: 5px !important;
-    font-size: 17px !important;
-    padding: 5px 10px 5px 10px;
-    transform: translateX(10px);
-    width: 90%;
+.widget-inline, #course-selection-widget{
+  display: inline-block;
 }
 
 
+
+}
+
+@media (min-width: 768px) and (max-width: 980px){
+    
+        div#course-selection-widget {
+    margin-top: -340% ;
+    transform: translateX(90%) ;
+    margin-bottom: 30px;
+
+}
+
+div#search-2 {
+    margin-bottom: -60px !important;
+}
+
+
+.et_pb_column.et_pb_column_1_3.et_pb_column_2_tb_body.et_pb_css_mix_blend_mode_passthrough {
+    margin-top: 50px !important;
+}
+}
+
+@media (max-width: 767px){
+    div#course-selection-widget {
+
+        transform: translateX(00%);
+        margin-bottom: 30px;
+    }
+
+    #search-2 .searchandfilter li[data-sf-field-input-type="checkbox"] ul{
+      max-height: 300px;
+      overflow: auto;
+    }
+}
