@@ -1,0 +1,50 @@
+<script>
+	jQuery(document).ready(function () {
+
+          function myFunction(title) {
+        if (title.matches) { // If media query matches
+          jQuery("#header-title").removeClass("title");
+        } else {
+         jQuery("#header-title").addClass("title");
+        }
+      }
+
+      let title = window.matchMedia("(max-width: 980px)")
+      myFunction(title) // Call listener function at run time
+      title.addListener(myFunction) // Attach listener function on state changes
+
+
+      if( !(jQuery("#instructor").text().replace(/\s/g, '').length))
+        {
+          console.log('hi');
+          jQuery("#instructor").text("To Be Decided");
+        }
+
+      if( !(jQuery("#learning-obj").text().replace(/\s/g, '').length) )
+        {
+          jQuery(".objective").addClass("hide");
+        }
+  })
+</script>
+
+<style>
+
+  .descs{
+    font-size: clamp(16px, 1vw, 20px) !important;
+    padding-right: clamp(16px, 3vw, 70px) !important;
+    padding-left: clamp(16px, 3vw, 70px) !important;
+
+  }
+
+
+  .objective .et_pb_text_inner p{
+    padding-bottom: 0;
+}
+
+div#learning-obj {
+    padding-bottom: 0 !important;
+}
+
+
+
+</style>

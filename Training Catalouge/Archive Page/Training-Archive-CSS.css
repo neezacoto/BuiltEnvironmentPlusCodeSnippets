@@ -1,0 +1,594 @@
+input,
+select {
+	border-radius: 20px !important;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+	margin-bottom: 10px !important;
+	font-size: 18px !important;
+}
+
+ul input:nth-of-type(2) {
+	border: none;
+}
+
+input.add-button {
+    width: 85px !important;
+}
+
+
+/*search form */
+
+.searchandfilter>input {
+	margin-bottom: 10px !important;
+}
+
+input.sf-input-text {
+	margin-bottom: -5px !important;
+}
+
+.noUi-connect {
+	background-color: #3382BE !important
+}
+
+li.sf-field-search>h4:first-child {
+    font-size: 27px !important;
+}
+
+li.sf-field-post-meta-course_hours {
+	margin-top: -35px !important;
+}
+
+li.sf-field-taxonomy-training_categories {
+	margin-top: 15px !important;
+}
+
+li.sf-field-taxonomy-training_categories {
+	margin-top: -16px !important;
+}
+
+li.sf-field-post-meta-course_hours>h4 {
+	margin-bottom: 5px
+}
+
+.sf-meta-range.sf-meta-range-slider>span {
+	font-size: 17px;
+	margin-left: 10px;
+}
+
+li.sf-field-taxonomy-training_categories>h4 {
+	margin-bottom: 6px !important;
+}
+
+.searchandfilter p {
+	margin-top: 1em;
+	display: block !important;
+}
+
+.searchandfilter ul {
+	display: block !important;
+}
+
+.searchandfilter h4 {
+	margin: 20px 0;
+	font-size: 20px !important;
+}
+
+.widget-area .searchandfilter li,
+.widget-area .searchandfilter p {
+	display: block !important;
+}
+
+
+/*style the wp-pagenavi pagination links*/
+
+.wp-pagenavi a,
+.wp-pagenavi span {
+	color: #000000;
+	background: #f1f3f5;
+	font-size: 1em !important;
+	line-height: 1em;
+	font-weight: bold !important;
+	padding: 0.45em 0.8em !important;
+	border-radius: 100px;
+	transition: all .5s;
+}
+
+
+/*style the wp-pagenavi current page number*/
+
+.wp-pagenavi span.current {
+	color: #ffffff !important;
+	background: #0070fc !important;
+	font-size: 17px !important;
+	border-radius: 100px;
+}
+
+
+/*style the wp-pagenavi pagination links on hover*/
+
+.wp-pagenavi a:hover {
+	color: #ffffff!important;
+	background: #0070fc!important;
+}
+
+
+/*style the wp-pagenavi pages text*/
+
+.wp-pagenavi .pages {
+	background: none;
+}
+
+
+/*remove border and center the wp-pagenavi links*/
+
+.wp-pagenavi {
+	border-top: none;
+	text-align: center;
+}
+
+
+/*contact form css*/
+
+p#preview-text  {
+	font-size: 16px !important;
+	color: #757575 !important;
+
+}
+
+textarea#note-field {
+	font-size: 17px;
+	padding-left: 10px;
+}
+
+.wpcf7 {
+	background-color: #DBDBDB;
+	border-radius: 5px;
+}
+
+.wpcf7-form {
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	padding: 0px;
+}
+
+#course-field {
+	background-color: #deddbd;
+}
+
+.wpcf7-textarea {
+	width: 100% !important;
+}
+
+.wpcf7 input {
+	margin-top: 5px;
+	width: 100%;
+	height: 43px;
+	font-size: 17px !important;
+	padding-left: 10px;
+	border-radius: 1px !important;
+	margin-bottom: 5px !important;
+}
+
+.wpcf7 label {
+	color: black !important;
+	font-size: 19px;
+}
+
+.textarea {
+	height: 150px !important;
+	margin-bottom: -10px;
+	font-family: verdana !important;
+}
+
+#submit-button {
+	background: #0078d3;
+	border: 0px solid !important;
+	border-radius: 5px !important;
+	font-size: 18px;
+	color: white;
+	transition: background-color 250ms;
+	cursor: pointer;
+	margin-bottom: -10px !important;
+}
+
+#submit-button:hover {
+	background-color: #3382BE;
+}
+
+.title {
+	display: inline-block;
+}
+
+.color {
+	background-color: #ededed !important;
+}
+
+.course-wrapper {
+	display: flex;
+}
+
+.add-button {
+	transition: transform 250ms;
+	margin-top: 50%;
+}
+
+.add-button:hover {
+	transform: rotate(-90deg);
+	background: url(black.png);
+	filter: invert(15%) sepia(100%) saturate(7499%) hue-rotate(196deg) brightness(94%) contrast(102%);
+}
+
+#blog-container {
+	left: 10px;
+}
+
+#fake-submit {
+	width: 100%;
+	border: none;
+	height: 44px;
+	border-radius: 5px;
+	background-color: #005DA4;
+	color: white;
+	font-size: 15px;
+	margin-top: 36px;
+	transition: background-color 250ms;
+	cursor: pointer;
+	margin-top: -14px;
+}
+
+#fake-submit:hover {
+	background-color: #3382BE;
+}
+
+
+/*css for the tags*/
+
+.course-wrap {
+	display: flex;
+	align-items: center;
+	margin-bottom: -10px;
+	margin-top: -10px;
+}
+
+#course-tag-container {
+	margin-top: 10px;
+	margin-bottom: -10px !important;
+	background-color: white;
+	padding: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	border-radius: 1px;
+	border: #BBBBBB 1px solid;
+	min-height: 43px;
+	font-size: 24px !important;
+}
+
+#form-container {
+	background-color: #DBDBDB;
+	padding: 10px;
+	padding-top: 12px;
+	border-radius: 5px;
+}
+
+#course-field,
+#submit-button {
+	display: none;
+}
+
+.tag-label {
+	color: black;
+	font-size: 19px;
+}
+
+@keyframes highlight-tag {
+	50% {
+		background-color: #75ACD8;
+	}
+	100% {
+		background-color: #DBDBDB;
+	}
+}
+
+.animate {
+	animation: highlight-tag 1s ease-in-out;
+}
+
+
+/*paginaiton edits*/
+
+.wp-pagenavi span.current {
+	color: #ffffff!important;
+	background: #3382BE!important;
+	font-size: 17px!important;
+	border-radius: 100px
+}
+
+.wp-pagenavi a:hover {
+	color: #ffffff!important;
+	background: #3382BE!important
+}
+/*more right col stylies*/
+#form-container {
+    background-color: #383838;
+
+}
+
+.wpcf7 label {
+    color: white !important;
+}
+
+p.tag-label {
+    color: white;
+}
+
+form.wpcf7-form.init {
+    background-color: #383838;
+}
+
+div#course-selection-widget {
+    background-color: #383838;
+    border-radius: 5px;
+    width: 350px;
+}
+
+#preview-text{
+    cursor: context-menu;
+}
+
+.hide{
+  display: none;
+
+}
+
+form.wpcf7-form.sent {
+    background-color: #383838 !important;
+}
+.wpcf7-response-output {
+    margin-top: -10px !important;
+    color: white;
+}
+/*heading text area*/
+.inline .et_pb_button_module_wrapper {
+    display: inline-block;
+}
+
+.header-body{
+    display: flex;
+}
+
+.header-bodies:nth-child(1){
+    padding-right: 20px;
+}
+/*extra css for testimonials*/
+.testimonial-active {
+  background-color: #3382BE !important;
+}
+
+.testimonial-active span{
+    color: white;
+}
+
+.testimonial-active p{
+    color: #F8F8F8;
+}
+
+#col-2{
+  flex: 1 !important;
+}
+
+/*form widget scaling*/
+.et_pb_row.et_pb_row_1_tb_body.course-modules {
+
+     transition: 150ms;
+}
+
+span.fas.fa-caret-down.arrow.rotate {
+    margin-right: 5px;
+}
+
+
+a.last {
+    white-space: nowrap;
+  overflow: hidden;
+}
+span.pages {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
+input[type="submit"] {
+    border: none;
+    background-color: #005da4;
+    color: white;
+    border-radius: 5px !important;
+    font-size: 17px !important;
+    padding: 5px 10px 5px 10px;
+    transform: translateX(10px);
+    width: 90%;
+  	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3382BE;
+
+}
+
+div#form-container {
+    margin-bottom: 0px;
+}
+
+div#blog-container {
+    margin-top: -30px;
+}
+
+#search-1 .searchandfilter li[data-sf-field-input-type="checkbox"] ul{
+      max-height: 600px;
+      overflow: auto;
+
+    }
+
+.searchandfilter li[data-sf-field-input-type="checkbox"] ul::-webkit-scrollbar-track {
+  border-radius: 5px;
+}
+
+/* Handle */
+.searchandfilter li[data-sf-field-input-type="checkbox"] ul::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+form.wpcf7-form.invalid {
+    background-color: #383838
+}
+
+@media (max-width: 1280px){
+
+    .et_pb_row.et_pb_row_1_tb_body.course-modules {
+     transform: scale(.91);
+     transition: 150ms;
+}
+
+}
+
+@media (max-width: 980px){
+
+.et_pb_module.et_pb_text.et_pb_text_5_tb_body.capture.et_pb_text_align_left.et_pb_bg_layout_light {
+    width: 436.8px;
+    padding-left: 10px;
+}
+
+div#course-selection-widget {
+    width: 436.8px;
+}
+
+div#form-container {
+    width: 436.8px;
+    margin-bottom: 0px;
+
+}
+
+.et_pb_module.et_pb_text.et_pb_text_5_tb_body.capture.et_pb_text_align_left.et_pb_bg_layout_light, div#course-selection-widget {
+    margin-left: -4%;
+}
+
+form#search-filter-form-24386 {
+    margin-bottom: 20px;
+}
+
+.et_pb_row.et_pb_row_1_tb_body.course-modules {
+    margin-top: -200% !important;
+}
+
+.et_pb_column.et_pb_column_1_3.et_pb_column_4_tb_body.et_pb_css_mix_blend_mode_passthrough.et-last-child {
+    margin-top:-60px;
+}
+
+.wp-pagenavi {
+    margin-left: -17%;
+}
+
+
+
+a.page.larger {
+    margin-left: -3px;
+}
+
+span.extend {
+    margin-left: -12px;
+    margin-right: -9px;
+    background-color: transparent;
+}
+
+.widget-inline, #course-selection-widget{
+  display: inline-block;
+}
+
+
+}
+/*tablet*/
+@media (min-width: 768px) and (max-width: 980px){
+
+.sf-field-taxonomy-training_categories ul {
+
+    columns: 3;
+    column-width: 20vw;
+    width: 84vw !important;
+}
+
+div#search-1 {
+    margin-bottom: -0px !important;
+}
+
+
+.et_pb_column.et_pb_column_1_3.et_pb_column_2_tb_body.et_pb_css_mix_blend_mode_passthrough {
+    margin-top: 50px !important;
+}
+
+#col-1{
+  width: 47% !important;;
+}
+
+
+
+div#course-selection-widget {
+  width: 400px;
+  margin-top: 80px;
+}
+
+div#course-selection-widget,div#form-container {
+    width: 80vw;
+}
+
+a.last {
+    display: none;
+}
+
+#search-1 .searchandfilter li[data-sf-field-input-type="checkbox"] ul{
+      max-height: 400px;
+      overflow: auto;
+    }
+
+}
+
+@media (max-width: 767px){
+
+    div#course-selection-widget,div#form-container {
+    width: 80vw;
+}
+
+		div#course-selection-widget {
+    margin-top: 60px;
+}
+
+a.last {
+    display: none;
+}
+
+#search-1 .searchandfilter li[data-sf-field-input-type="checkbox"] ul{
+      max-height: 300px;
+      overflow: auto;
+    }
+
+}
