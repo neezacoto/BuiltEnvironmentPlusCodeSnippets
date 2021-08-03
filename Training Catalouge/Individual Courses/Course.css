@@ -251,6 +251,11 @@ textarea#note-field {
 
 /*css for the tags*/
 
+span.fas.fa-caret-down.arrow {
+    margin-right: 7px;
+}
+
+
 .course-wrap {
 	display: flex;
 	align-items: center;
