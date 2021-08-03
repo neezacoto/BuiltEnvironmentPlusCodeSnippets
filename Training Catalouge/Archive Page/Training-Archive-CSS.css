@@ -385,9 +385,10 @@ form.wpcf7-form.sent {
      transition: 150ms;
 }
 
-span.fas.fa-caret-down.arrow.rotate {
-    margin-right: 5px;
+span.fas.fa-caret-down.arrow {
+    margin-right: 7px;
 }
+
 
 
 a.last {
